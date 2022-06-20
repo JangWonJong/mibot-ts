@@ -14,15 +14,6 @@ export default function Register() {
               required
               fullWidth
               id=""
-              label="이름"
-              name="username"
-              autoComplete="username"
-            />
-            <TextField
-              margin="normal"
-              required
-              fullWidth
-              id=""
               label="아이디"
               name="userid"
               autoComplete="userid"
@@ -36,6 +27,15 @@ export default function Register() {
               type="password"
               id="password"
               autoComplete="current-password"
+            />
+            <TextField
+              margin="normal"
+              required
+              fullWidth
+              id=""
+              label="이름"
+              name="username"
+              autoComplete="username"
             />
             <TextField
               margin="normal"
@@ -63,6 +63,15 @@ export default function Register() {
               label="주소"              
               id="address"
               autoComplete="address"
+            />
+            <TextField
+              margin="normal"
+              required
+              fullWidth
+              name="tel"
+              label="전화번호"              
+              id="tel"
+              autoComplete="tel"
             />
             </div>
             <div>
